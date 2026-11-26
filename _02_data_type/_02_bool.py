@@ -71,6 +71,11 @@ result =  (kor >= 40) and (eng >= 40) and (kor + eng)/2 >= 60
 
 print("합격여부: ", result)
 
+print ("합격" if result else '불합격')
+
+
+# 논리 연산자(not, and, or), 비교 연산자(>, <, >=, <=, ==, !=)의 결과는
+# 항상 자료형이 bool 이다
 
 
 

@@ -8,10 +8,9 @@ b = "홍길동"
 
 num = a  # num 변수에 a(10) 대입
 
-print('a: ' , a)
-print('b: ' , b)
-print('num: ' , num)
-
+print('a: ', a)
+print('b: ', b)
+print('num: ', num)
 
 """
 변수명 작성요령
@@ -22,6 +21,7 @@ print('num: ' , num)
 5. 파이썬 예약어(if, elif, else, for, while, …)를 사용할 수 없다.
 6. **직관적인 변수명**을 사용한다. 짧고 간편하다고, a, b, c와 같은 변수명을 사용하지 않는다.
 """
+
 # 대소문자 구분 확인
 name = "이순신"
 NAME = "홍길동"
@@ -46,11 +46,9 @@ print(_1st_user)
 # print(sec-ond!)
 
 
-
 # 파이썬 예약어(if, elif, else, for, while, …)를 사용할 수 없다
 import keyword
 print(keyword.kwlist)
-# False = 100
 
 # False = 100
 
